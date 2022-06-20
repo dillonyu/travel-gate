@@ -1,6 +1,21 @@
 @font-face {
+    font-family: roboto-bold;
+    src: url(./fonts/Roboto-Regular.ttf)
+}
+
+@font-face {
     font-family: roboto;
-    src: url(./fonts/roboto.ttf)
+    src: url(./fonts/Roboto-Light.ttf)
+}
+
+@font-face {
+    font-family: roboto-extra-bold;
+    src: url(./fonts/Roboto-Black.ttf)
+}
+
+@font-face {
+    font-family: roboto-thin-italic;
+    src: url(./fonts/Roboto-ThinItalic.ttf)
 }
 
 body {
@@ -8,14 +23,15 @@ body {
     font-family: roboto;
     margin: 0;
     color: #E5E7EB;
+    background-color: #1F2937;
 }
 
 .header {
     display: flex;
-    background-color: #1F2937;
     flex-direction: column;
     flex: 1;
-    padding: 0px 100px;
+    padding: 0px 200px;
+    gap: 50px;
 }
 
 .header-top {
@@ -26,7 +42,7 @@ body {
 
 .header-links {
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .header-links a {
@@ -35,8 +51,34 @@ body {
 }
 
 .logo {
+    font-family: roboto-bold;
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
     text-shadow: 0 0 5px #fff; /* Glowing logo! */
+}
+
+.header-main {
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.header-main-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-main-text h1 {
+    font-family: roboto-extra-bold;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+.image-caption {
+    margin-top: 5px;
+    font-size: 15px;
+    font-family: roboto-thin-italic;
 }
