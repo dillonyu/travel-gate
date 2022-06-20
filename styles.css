@@ -82,3 +82,7 @@ body {
     font-size: 15px;
     font-family: roboto-thin-italic;
 }
+
+a:hover {
+    color: #b0bcca
+}
