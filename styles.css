@@ -1,0 +1,17 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/roboto.ttf)
+}
+
+body {
+    display: flex;
+    font-family: roboto;
+    margin: 0;
+    color: white;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    flex-direction: column;
+}
