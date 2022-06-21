@@ -20,10 +20,12 @@
 
 body {
     display: flex;
+    flex-direction: column;
     font-family: roboto;
     margin: 0;
     color: #E5E7EB;
     background-color: #1F2937;
+    font-size: 18px;
 }
 
 .header {
