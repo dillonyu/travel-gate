@@ -1,11 +1,11 @@
 @font-face {
-    font-family: roboto-bold;
-    src: url(./fonts/Roboto-Regular.ttf)
+    font-family: roboto;
+    src: url(./fonts/Roboto-Light.ttf)
 }
 
 @font-face {
-    font-family: roboto;
-    src: url(./fonts/Roboto-Light.ttf)
+    font-family: roboto-bold;
+    src: url(./fonts/Roboto-Regular.ttf)
 }
 
 @font-face {
@@ -40,6 +40,14 @@ body {
     justify-content: space-between;
 }
 
+.logo {
+    font-family: roboto-bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    text-shadow: 0 0 5px #fff; /* Glowing logo! */
+    text-decoration: none;
+}
+
 .header-links {
     display: flex;
     gap: 20px;
@@ -48,14 +56,6 @@ body {
 .header-links a {
     color: white;
     text-decoration: none;
-}
-
-.logo {
-    font-family: roboto-bold;
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: bold;
-    text-shadow: 0 0 5px #fff; /* Glowing logo! */
 }
 
 .header-main {
@@ -73,7 +73,6 @@ body {
 .header-main-text h1 {
     font-family: roboto-extra-bold;
     font-size: 48px;
-    font-weight: bolder;
     margin-bottom: 0;
 }
 
