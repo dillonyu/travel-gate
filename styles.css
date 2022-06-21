@@ -33,6 +33,7 @@ body {
     flex-direction: column;
     flex: 1;
     padding: 0px 200px;
+    margin-bottom: 75px;
     gap: 50px;
 }
 
@@ -103,5 +104,51 @@ button:hover {
 }
 
 a:hover {
-    color: #b0bcca
+    color: #b0bcca;
+}
+
+.get-started {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+}
+
+.selection {
+    display: flex;
+    gap: 20px;
+    /* max-width: 490px; */
+    flex-wrap: wrap;
+}
+
+.continent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.continent:hover img {
+    opacity: 0.3;
+    transition: .3s ease;
+    transform: scale(1.1);
+}
+
+.label {
+    max-width: 100px;
+    text-align: center;
+    position: relative;
+    bottom: 90px;
+    color: white;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.selection img {
+    width: 150px;
+    height: 150px;
+}
+
+a {
+    text-decoration: none;
 }
