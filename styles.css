@@ -54,7 +54,7 @@ body {
 }
 
 .header-links a {
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
@@ -74,6 +74,24 @@ body {
     font-family: roboto-extra-bold;
     font-size: 48px;
     margin-bottom: 0;
+}
+
+.header-main-text p {
+    margin-bottom: 5px;
+}
+
+.header-main-text button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px solid #3882F6;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #2b5daf;
+    border: 1px solid #2b5daf;
 }
 
 .image-caption {
