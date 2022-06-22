@@ -32,9 +32,9 @@ body {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 0px 200px;
     margin-bottom: 75px;
     gap: 50px;
+    padding: 0px 200px;
 }
 
 .header-top {
@@ -118,7 +118,7 @@ a:hover {
     justify-content: center;
     background-color: white;
     color: black;
-    padding: 20px 0 50px 0;
+    padding: 20px 200px 50px;
 }
 
 .selection {
@@ -167,7 +167,7 @@ a:hover {
     align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
-    padding: 50px;
+    padding: 50px 200px;
 }
 
 .meet-the-team .meet-header {
