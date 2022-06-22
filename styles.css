@@ -161,6 +161,55 @@ a:hover {
     margin-bottom: 0;
 }
 
+.meet-the-team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 50px;
+}
+
+.meet-the-team .meet-header {
+    font-size: 25px;
+    font-family: roboto-extra-bold;
+    margin-bottom: 40px;
+}
+
+.meet-the-team .member{
+    display: flex;
+    gap: 20px;
+}
+
+.member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.member .member-description {
+    font-size: 20px;
+    margin: 5px 1px;
+}
+
+.member-name {
+    font-size: 30px;
+    font-family: roboto-bold;
+    margin: 0px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.member-socials {
+    margin-top: 20px;
+}
+
+.member-socials img{
+    width: 30px;
+    height: 30px;
+}
+
 a {
     text-decoration: none;
 }
