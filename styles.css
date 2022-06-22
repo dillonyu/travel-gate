@@ -73,6 +73,10 @@ body {
     align-items: center;
 }
 
+.header-main-image img {
+    border-radius: 10px;
+}
+
 .header-main-text h1 {
     font-family: roboto-extra-bold;
     font-size: 48px;
@@ -147,6 +151,7 @@ a:hover {
 .selection img {
     width: 150px;
     height: 150px;
+    border-radius: 10px;
 }
 
 a {
