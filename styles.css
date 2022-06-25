@@ -217,9 +217,35 @@ a:hover {
 }
 
 .box {
-    padding: 25px;
+    padding: 50px 100px;
     background-color: #3882F6;
     border-radius: 10px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-header {
+    font-family: roboto-bold;
+    font-size: 21px;
+}
+
+.box-button a {
+    color: white;
+    padding: 0px;
+    font-family: roboto-bold;
+    padding: 5px 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.box a:hover {
+    background-color: #2f6ac8;
 }
 
 a {
