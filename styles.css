@@ -248,6 +248,12 @@ a:hover {
     background-color: #2f6ac8;
 }
 
+.copyright {
+    padding: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+
 a {
     text-decoration: none;
 }
