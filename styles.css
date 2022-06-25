@@ -119,6 +119,7 @@ a:hover {
     background-color: white;
     color: black;
     padding: 20px 200px 50px;
+    gap: 50px;
 }
 
 .selection {
