@@ -210,6 +210,18 @@ a:hover {
     height: 30px;
 }
 
+.contributing {
+    padding: 100px 200px;
+    background-color: white;
+    color: white;
+}
+
+.box {
+    padding: 25px;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
 a {
     text-decoration: none;
 }
